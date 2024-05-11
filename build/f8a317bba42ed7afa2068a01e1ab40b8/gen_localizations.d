@@ -1,1 +1,0 @@
- /Users/george/StudioProjects/HappyStudents/.dart_tool/flutter_gen/gen_l10n/app_localizations_en.dart /Users/george/StudioProjects/HappyStudents/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/george/StudioProjects/HappyStudents/l10n.yaml /Users/george/StudioProjects/HappyStudents/lib/l10n/app_en.arb

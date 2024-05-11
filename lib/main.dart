@@ -4,7 +4,10 @@ import 'package:happy_students/core/presentation/main_screen/main_screen.dart';
 import 'package:happy_students/core/theme/palette.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import 'get_it.dart';
+
 void main() {
+  setupServiceLocator();
   runApp(const ShoedStudent());
 }
 
