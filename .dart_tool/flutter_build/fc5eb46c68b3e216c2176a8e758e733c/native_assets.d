@@ -1,0 +1,1 @@
+ /Users/stanislavborisov/AndroidStudioProjects/HappyStudents1/.dart_tool/flutter_build/fc5eb46c68b3e216c2176a8e758e733c/native_assets.yaml: 
