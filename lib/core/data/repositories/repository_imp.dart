@@ -11,16 +11,14 @@ class RepositoryImpl implements Repository {
 
   @override
   Future<List<Author>> fetchAuthors() async {
-    // TODO: implement fetchAuthors
     final listAuthors = await networkService.fetchAuthors();
-    print(listAuthors);
-    return <Author>[];
+    return mapDynamicListToAuthorList(listAuthors);
   }
 
   @override
-  Future<List<Client>> fetchClients() {
-    // TODO: implement fetchClients
-    throw UnimplementedError();
+  Future<List<Client>> fetchClients() async {
+    final listClients = await networkService.fetchClients();
+    return mapDynamicListToClientList(listClients);
   }
 
 
